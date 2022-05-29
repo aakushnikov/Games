@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="EldenRing\Data\er-items.txt" />
+    <None Remove="EldenRing\Data\er-locations.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Games.Model\Games.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="EldenRing\Data\er-items.txt" />
+    <Resource Include="EldenRing\Data\er-locations.txt" />
+  </ItemGroup>
+
+</Project>

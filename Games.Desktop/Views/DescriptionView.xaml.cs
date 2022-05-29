@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Games.EldenRing.Desktop.Views.Windows
+namespace Games.Desktop.Views
 {
 	/// <summary>
-	/// Interaction logic for MainWindow.xaml
+	/// Interaction logic for DescriptionView.xaml
 	/// </summary>
-	public partial class MainWindow : Window
+	public partial class DescriptionView : Page
 	{
-		public MainWindow()
+		public DescriptionView()
 		{
 			InitializeComponent();
 		}
